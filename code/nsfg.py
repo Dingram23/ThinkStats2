@@ -19,7 +19,7 @@ from collections import defaultdict
 # think we have atom running the code from D:\Dropbox\Dropbox\GitHub\ThinkStats2 rather than ...\code
 # confirmatory test as follows proved this:
 import os
-print(os.getcwd())
+# print(os.getcwd())
 
 # workaround, probably needed for all these codes
 os.chdir('D:\Dropbox\Dropbox\GitHub\ThinkStats2\code')
