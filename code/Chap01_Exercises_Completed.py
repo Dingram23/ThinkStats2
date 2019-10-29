@@ -10,20 +10,6 @@ from __future__ import print_function
 import numpy as np
 import sys
 import pandas as pd
-
-################################
-
-# original code was returning file not found error for files clearly present in this folder
-# think we have atom running the code from D:\Dropbox\Dropbox\GitHub\ThinkStats2 rather than ...\code
-# confirmatory test as follows proved this:
-import os
-# print(os.getcwd())
-
-# workaround, probably needed for all these codes
-os.chdir('D:\Dropbox\Dropbox\GitHub\ThinkStats2\code')
-
-###############################
-
 import nsfg
 import thinkstats2
 
